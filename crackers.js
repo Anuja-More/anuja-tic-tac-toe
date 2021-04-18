@@ -82,7 +82,7 @@ Emitter.prototype.update = function () {
 Emitter.prototype.render = function (imgData) {
   var data = imgData.data;
 
-  for (i = 0; i < this.particles.length; i++) {
+  for ( i = 0; i < this.particles.length; i++) {
     var particle = this.particles[i],
       dist = Math.sqrt(
         (particle.x - particle.ox) * (particle.x - particle.ox) +
